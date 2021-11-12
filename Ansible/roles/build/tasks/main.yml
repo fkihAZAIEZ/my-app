@@ -3,4 +3,4 @@
              - name: build app
                command: ng build --prod
                environment:
-                 PATH: /root/my-app/node_modules/.bin/
+                 PATH: /root/.nvm/versions/node/v12.22.7/bin/
