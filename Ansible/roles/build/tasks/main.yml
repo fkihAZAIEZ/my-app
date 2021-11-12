@@ -1,3 +1,5 @@
 #buildproject
               -name: build app
                shell: ng build --prod
+               environment:
+                 PATH: /root/my-app/node_modules/.bin/
