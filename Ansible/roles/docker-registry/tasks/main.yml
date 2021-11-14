@@ -1,13 +1,13 @@
 ---
 # tasks file for docker-registry
-- name: Log into DockerHub
+- name: log into DockerHub
   docker_login:
     username: azaiez
     password: cfa08e02-4284-4ad7-a696-3cfcf97a6152
 
-- name: Tag and push to docker hub
+- name: tag and push to docker hub
   docker_image:
-    name: jenkins:latest
+    name: myapp:latest
     repository: azaiez/devops
     tag: end
     push: yes
