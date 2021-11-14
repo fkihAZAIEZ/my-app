@@ -32,7 +32,7 @@ pipeline
  {           
              steps{
                 script{
-                    sh "ansible-playbook ansible/register.yml -i Ansible/inventory/host.yml"
+                    sh "ansible-playbook Ansible/docker-registry.yml -i Ansible/inventory/host.yml"
                 }
             }
         }      
